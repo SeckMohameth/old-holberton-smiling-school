@@ -1,32 +1,40 @@
-# 0x09. Implement a design from scratch
+# 0x0B. Implement a design with bootstrap
 
+## Introduction
 
 For this project I have to implement a design from scratch using all that we learned from previous projects. 
-- HTML
-- CSS
-- Accessibility
-- Responsive design
 
-These projects can be found in my [holbertonschool-web_front_end](https://github.com/SeckMohameth/holbertonschool-web_front_end) repository.
+## Task Overview
+In this project, you will implement 3 web pages with Bootstrap. You will use all HTML/CSS/Accessibility/Responsive design/Bootstrap knowledges that you learned previously.
+
+You won’t have a lot of instruction, you are free to implement it the way that you want - the objective is simple: Have fully functional web pages that look the same as the designer file.
+
+
 
 ## Project
 We weren't given a lot of instructions and are free to implement it the way we want. The objective is to have a fully functional web page that looks the same as the design files given to us.
 
-Link to the [Figma designs](https://www.figma.com/file/gkWRcFqkwtruWZgSfnnHF0/Holberton-School---Headphone-company?node-id=0%3A1)
+Link to the Figma designs
+- [Homepage](https://www.figma.com/file/QYQqMYbdpAHL5xTclwJKSI/Homepage) 
+- [Pricing](https://www.figma.com/file/KLAI53jdYpfFNEy0O79ymB/Pricing)
+- [Courses](https://www.figma.com/file/ivg3abH1HLmMayBgjGg1Qf/Courses?node-id=0%3A1)
 
 
-![](https://github.com/SeckMohameth/holbertonschool-web_front_end/blob/master/0x09-implement_a_design_from_scratch/Archive-2/01_headphones_desktop@2x.png?raw=true)
+![](https://github.com/SeckMohameth/holberton-smiling-school/blob/master/Archive/Desktop/01_SMILESCHOOL_LANDING_desktop@2x.png?raw=true)
 
-![](https://github.com/SeckMohameth/holbertonschool-web_front_end/blob/master/0x09-implement_a_design_from_scratch/Archive-2/01_headphones_mobile@2x.png?raw=true)
+![](https://github.com/SeckMohameth/holberton-smiling-school/blob/master/Archive/Desktop/02_SMILESCHOOL_PRICING_desktop@2x.png?raw=true)
 
-![](https://github.com/SeckMohameth/holbertonschool-web_front_end/blob/master/0x09-implement_a_design_from_scratch/Archive-2/01_headphones_tablet@2x.png?raw=true)
+![](https://github.com/SeckMohameth/holberton-smiling-school/blob/master/Archive/Desktop/03_SMILESCHOOL_COURSES_desktop@2x.png?raw=true)
+
+![](https://github.com/SeckMohameth/holberton-smiling-school/blob/master/Archive/Screen%20Shot%202020-03-27%20at%208.54.52%20AM.png?raw=true)
 
 ## Requirements
-- you are not allowed to import external CSS framework (like Bootstrap)
-- you are not to use Javascript
+- You have to use Bootstrap
+
+- your styles.css must be as small as you can - you must use as much as you can Bootstrap classes
 
 ## Motivation
-I'm excited to put what I've learned into practice. My goal once completing my studies is to apply for a frontend position so knowing how to work with designers is crucial.It also sparks my interest in UI/UX since that is also a field of interest for me as well.
+Learning a framework like Bootstrap has been fun and exciting. Especially when trying to get your website to be responsive and mobile first. Bootstrap makes development so much easier when it comes to designing a mobile first experience. I also have an interest in UI/UX and learning how to work with designers is crucial to delivering on a project.
 
 # Contributions
 This project was done alone
