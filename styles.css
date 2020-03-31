@@ -1,0 +1,79 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+.jumbotron{
+    height: 100vh;
+    display: flex;
+}
+
+.jumbotron{
+    background: url("/images/pic_1.jpg") no-repeat  center; 
+    background-size: cover;
+
+}
+
+.btn{
+    background-color: #C271FF;
+    border: none;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}
+
+.btn:hover{
+    background-color: #C271FF;
+}
+
+.profiles{
+    margin-top: 100px;
+    display: flex;
+}
+
+/* Large text font  */
+.big-text{
+    font-size: 100px;
+}
+
+.text-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.learn{
+    color: #C271FF;
+}
+.learn-text{
+    font-size: 30px;
+    color: darkgray;
+
+}
+
+.row{
+    justify-content: center;
+
+}
+
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #C271FF;
+    margin: -32px;
+    color: white;
+}
+
+.carousel-text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.car-content{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
