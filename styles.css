@@ -1,3 +1,6 @@
+
+/* jumbotron and nav 
+==========================*/
 .navbar {
     margin-bottom: 0px;
 }
@@ -52,9 +55,10 @@
     justify-content: center;
 
 }
+/* carousel section 
+========================*/
 
-
-.carousel{
+.carousel-1{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,3 +81,434 @@
 
 
 }
+
+/* first video section 
+===============================*/
+
+.vid-sec-1{
+    margin-top: 100px;
+  
+}
+
+.vid-content{
+    margin-left: 150px;
+}
+
+.vid-content .vid-inside{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    }
+
+    .change{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+
+    }
+
+/* .vid-content {
+    width: auto;
+} */
+
+.carousel-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.who{
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.who p{
+    padding-left: 10px;
+}
+
+.vid-sec-1 h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+
+}
+.vid-sec-1 h1 span{
+    color: #C271FF;
+    display: inline-block;
+    margin-right:.2em;
+    margin-left:.2em;
+
+}
+
+/* <!-- Free membership section --> 
+===================================*/
+
+.membership{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #071629;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inner-member{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+}
+
+.inner-member .mem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    text-align: center;
+    
+}
+
+.member-btn{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.membership .title {
+    padding-top: 100px;
+}
+
+.membership .title h1 span{
+    color: #C271FF;
+    display: inline-block;
+    padding-right:.2em;
+    padding-left:.2em;
+
+}
+
+
+/* footer section */
+
+.footer{
+    background-color: #071629;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+}
+
+.footer p{
+    color: white;
+    opacity: 35%;
+    padding-left: 500px;
+    padding-top: 200px;
+}
+
+.footer .logo{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.footer .social{
+  color: white;
+  font-size: 60px;
+  padding-left: 500px;
+  padding-top: 70px;
+}
+
+
+/* PRICING PAGE 
+=====================*/
+
+.top{
+    background-image: url(/images/pic_2.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1170px;
+}
+
+
+/* NAVBAR 
+===============*/
+.navbar-brand{
+    padding: 100px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C271FF;
+   border-bottom: white solid 3px;
+}
+
+.header .title{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header .title p{
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+/* 
+@media (min-width 768px){
+    .top{
+
+    }
+} */
+
+
+/* pricing section 
+======================*/
+.container .row{
+    color: white;
+}
+.container .row .holberton_school-icon-check{
+  color: #82D24F;
+}
+
+.container .row p{
+  opacity: 50%;
+  /* display: inline; */
+}
+
+.container .row .btn{
+  background-color: #C271FF;
+  color: white;
+}
+/* 
+.container .row [class*='col-']{
+  border-bottom: solid 2px;
+} */
+
+.container hr{
+  border-top: 1px solid white;
+  opacity: 30%;
+}
+
+/* carousel section for pricing 
+==================================*/
+.carousel-item{
+  background-color: #C271FF;
+  height: 400px;
+  display: flex;
+  padding-left: 300px;
+  padding-top: 130px;
+}
+
+.carousel-item .content{
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-item .text{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.faq .container .row{
+  color: black;
+  align-items: center;
+
+}
+
+.faq{
+  margin-top: 150px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+}
+
+.faq .row [class*='col'] p:first-child{
+  font-weight: bold;
+  color: #071629;
+}
+
+.top-faq{
+  font-size: 60px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* COURSES PAGE 
+=======================*/
+.courses-header{
+  background-image: url(/images/pic_3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 216px;
+}
+
+.courses-header .header-text-course{
+  color: white;
+  display: flex;
+  text-align: left;
+  padding-left: 500px;
+  width: 1200px;
+}
+
+
+.courses-header .course-smile{
+  color: #C271FF;
+}
+
+.input-menu{
+  display: flex;
+  flex-direction: row;
+  background-color: #C271FF;
+  padding: 30px;
+
+}
+
+
+
+.search-bar, .search-text{
+  background-color: #D195FF;
+  border: none;
+
+}
+
+.search-bar .find{
+  border: none;
+  
+}
+
+.input-nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown-class{
+  padding-left: 20px;
+  
+}
+
+/* COURSES RESULT 
+=======================*/
+ 
+.list-of-course{
+  margin-top: 25px;
+}
+
+.list-of-course  p{
+  color: black;
+}
+
+
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .holberton_school-icon-arrow_1:before {
+    content: "\e900";
+  }
+  .holberton_school-icon-arrow_2:before {
+    content: "\e901";
+  }
+  .holberton_school-icon-arrow_3:before {
+    content: "\e902";
+  }
+  .holberton_school-icon-arrow_4:before {
+    content: "\e903";
+  }
+  .holberton_school-icon-arrow_5:before {
+    content: "\e904";
+  }
+  .holberton_school-icon-check:before {
+    content: "\e905";
+  }
+  .holberton_school-icon-ic_bag:before {
+    content: "\e906";
+  }
+  .holberton_school-icon-ic_cart:before {
+    content: "\e907";
+  }
+  .holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+  }
+  .holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+  }
+  .holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+  }
+  .holberton_school-icon-ic_laptop:before {
+    content: "\e90b";
+  }
+  .holberton_school-icon-ic_money:before {
+    content: "\e90c";
+  }
+  .holberton_school-icon-ic_music:before {
+    content: "\e90d";
+  }
+  .holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+  }
+  .holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+  }
+  .holberton_school-icon-ic_video:before {
+    content: "\e910";
+  }
+  .holberton_school-icon-menu:before {
+    content: "\e911";
+  }
+  .holberton_school-icon-search_1:before {
+    content: "\e912";
+  }
+  .holberton_school-icon-search_2:before {
+    content: "\e913";
+  }
+  .holberton_school-icon-star:before {
+    content: "\e914";
+  }
+  
